@@ -2,7 +2,7 @@ body{
 	background-color:#359444;
 	height:100;
 	width: auto;
-	margin: 0px 20px;
+	margin: 0px 400px;
 }
 p{
 	color:rgb(255,255,255);
@@ -11,21 +11,19 @@ p{
 	font-family:Verdana;
 	text-align:center;
 	color:#FFF;
-	position: fixed;
-	width=100%;
 }
 .nav{
     list-style-type: none;
-    margin: 0px 50px;
-    padding: 0;
     overflow: hidden;
     background-color: #333;
 	list-style-type: none;
 	text-align:center;
+	position: abosolute;
+	width:100%;
 }
 
 .nav li {
-    float: left;
+    float: center;
 	display: inline-block;
 	text-align:center;
 }
@@ -41,5 +39,17 @@ p{
 /* Change the link color to #111 (black) on hover */
 .nav li a:hover {
     background-color: #111;
+}
+#slideshow{
+
+}
+#slideshow button{
+	background-color:rgb(0,255,0);
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    body{
+		margin:0px 0px;
+	}
 }
 
